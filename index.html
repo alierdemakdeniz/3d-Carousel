@@ -1,69 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>3D Carousel</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>3D Carousel</title>
+    </head>
 
-<body>
-    <div class="text-box">
-        <p class="head-text grey"> Simple Image Carousel </p>
-        <p class="tittle grey">5 x Image items ❖ Carousel
-            Interactive Components & Variants</p>
+    <body>
+        <div class="text-box">
+            <p class="head-text grey">
+                Simple Image Carousel
+            </p>
+            <p class="tittle grey">5 x Image items ❖ Carousel Interactive Components & Variants</p>
 
-    </div>
-    <div class="carousel">
-
-
-        <input type="radio" name="slider" id="c1" checked>
-        <input type="radio" name="slider" id="c2" checked-bo>
-        <input type="radio" name="slider" id="c3">
-        <input type="radio" name="slider" id="c4">
-        <input type="radio" name="slider" id="c5">
-
-
-        <div class="container">
-            <label for="c1" id="slide1">
-                <img src="image/image-1.jpg" alt=""> 
-            </label>
-            <label for="c2" id="slide2">
-                <img src="image/image-2.jpg" alt="">
-            </label>
-            <label for="c3" id="slide3">
-                <img src="image/image-3.jpg" alt="">
-            </label>
-            <label for="c4" id="slide4">
-                <img src="image/image-4.jpg" alt="">
-            </label>
-            <label for="c5" id="slide5">
-                <img src="image/image-5.jpg" alt="">
-            </label>
         </div>
-        <div class="dots">
-            <a href="#" class="arrow prev">
-                <i class="fa-solid fa-arrow-left "></i>
-            </a>
-            <label for="c1" class="dot"></label>
-            <label for="c2" class="dot"></label>
-            <label for="c3" class="dot"></label>
-            <label for="c4" class="dot"></label>
-            <label for="c5" class="dot"></label>
-            <a href="#" class="arrow next">
-                <i class="fa-solid fa-arrow-right "></i>
-            </a>
+        <div class="carousel">
+
+            <input type="radio" name="slider" id="c1" checked="checked">
+            <input type="radio" name="slider" id="c2">
+            <input type="radio" name="slider" id="c3">
+            <input type="radio" name="slider" id="c4">
+            <input type="radio" name="slider" id="c5">
+
+            <div class="container">
+                <label for="c1" id="slide1">
+                    <img src="image/image-1.jpg" alt="">
+                </label>
+                <label for="c2" id="slide2">
+                    <img src="image/image-2.jpg" alt="">
+                </label>
+                <label for="c3" id="slide3">
+                    <img src="image/image-3.jpg" alt="">
+                </label>
+                <label for="c4" id="slide4">
+                    <img src="image/image-4.jpg" alt="">
+                </label>
+                <label for="c5" id="slide5">
+                    <img src="image/image-5.jpg" alt="">
+                </label>
+            </div>
+            <div class="dots">
+                <a href="#" class="arrow prev">
+                    <i class="fa-solid fa-arrow-left "></i>
+                </a>
+                <label for="c1" class="dot"></label>
+                <label for="c2" class="dot"></label>
+                <label for="c3" class="dot"></label>
+                <label for="c4" class="dot"></label>
+                <label for="c5" class="dot"></label>
+                <a href="#" class="arrow next">
+                    <i class="fa-solid fa-arrow-right "></i>
+                </a>
+            </div>
+
         </div>
+        <script src="app.js"></script>
 
-
-
-
-    </div>
-    <script src="app.js"></script>
-
-
-</body>
+    </body>
 
 </html>
